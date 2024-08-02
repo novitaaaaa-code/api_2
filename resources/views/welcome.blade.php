@@ -32,7 +32,7 @@
 
                 <div class="card-body">
                     selamat datang @guest
-                        @elseif
+                        @else
                         <b>{{Auth::user()->name}}</b>
                     @endguest
                 </div>
